@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score
+Multinomial Nb,1.0,1.0,1.0,1.0
+Bernoulli Nb,1.0,1.0,1.0,1.0
+Gaussian Nb,0.875,0.8,1.0,0.8888888888888888

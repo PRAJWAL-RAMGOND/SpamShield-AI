@@ -1,0 +1,50 @@
+{
+  "multinomial_nb": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "confusion_matrix": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  "bernoulli_nb": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "confusion_matrix": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  "gaussian_nb": {
+    "accuracy": 0.875,
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1_score": 0.8888888888888888,
+    "confusion_matrix": [
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        4
+      ]
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "comparison_df": {
+    "Model": {
+      "0": "Multinomial Nb",
+      "1": "Bernoulli Nb",
+      "2": "Gaussian Nb"
+    },
+    "Accuracy": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 0.875
+    },
+    "Precision": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 0.8
+    },
+    "Recall": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 1.0
+    },
+    "F1-Score": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 0.8888888888888888
+    }
+  },
+  "best_model": "multinomial_nb",
+  "best_accuracy": 1.0,
+  "detailed_metrics": {
+    "multinomial_nb": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion_matrix": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "bernoulli_nb": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion_matrix": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "gaussian_nb": {
+      "accuracy": 0.875,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1_score": 0.8888888888888888,
+      "confusion_matrix": [
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    }
+  },
+  "predictions": {
+    "multinomial_nb": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "bernoulli_nb": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "gaussian_nb": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  "classification_reports": {
+    "multinomial_nb": {
+      "Ham": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "Spam": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      }
+    },
+    "bernoulli_nb": {
+      "Ham": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "Spam": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      }
+    },
+    "gaussian_nb": {
+      "Ham": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 4.0
+      },
+      "Spam": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "accuracy": 0.875,
+      "macro avg": {
+        "precision": 0.9,
+        "recall": 0.875,
+        "f1-score": 0.873015873015873,
+        "support": 8.0
+      },
+      "weighted avg": {
+        "precision": 0.9,
+        "recall": 0.875,
+        "f1-score": 0.873015873015873,
+        "support": 8.0
+      }
+    }
+  }
+}
