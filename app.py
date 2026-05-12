@@ -380,7 +380,7 @@ def display_algorithm_explanation():
 def main():
     """Main application function."""
     # Header
-    st.markdown('<h1 class="main-header">📧 Intelligent Email Filtering System</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">📧 SpamShield AI: Intelligent Email Filtering System</h1>', unsafe_allow_html=True)
     st.markdown("""
     *Automatically classify emails as Spam or Not Spam using Naïve Bayes algorithms*
     
@@ -450,7 +450,7 @@ def main():
         # Load and display ROC curves if available
         roc_path = os.path.join(reports_dir, 'roc_curves.html')
         if os.path.exists(roc_path):
-            with open(roc_path, 'r') as f:
+            with open(roc_path, 'r', encoding='utf-8') as f:
                 roc_html = f.read()
             st.components.v1.html(roc_html, height=500)
     
